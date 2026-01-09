@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 overflow-hidden">
           {/* Left Column: Text Content */}
           <div className="flex flex-col justify-center items-start space-y-6">
             <span className="inline-block px-4 py-1.5 text-sm font-medium text-gray-700 border border-gray-300 rounded-full">
