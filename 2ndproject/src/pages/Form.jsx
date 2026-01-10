@@ -52,7 +52,7 @@ const Form = () => {
       </form>
 
       {allusers.map((user, index) => (
-        <Card key={index} username={user.username} imageurl={user.imageurl} description={user.description} role={user.role} />
+        <Card key={index} username={user.username} imageurl={user.imageurl} description={user.description} role={user.role} allusers={user.allusers}/>
       ))}
     </div>
   );
